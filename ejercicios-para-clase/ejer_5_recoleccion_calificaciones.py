@@ -11,11 +11,10 @@ nota_ingresada = -1;
 
 print("Ingrese sus calificaciones. Ingrese 0 para terminar y calcular el promedio.");
 
-# Bucle para ingresar notas
 while nota_ingresada != 0:
     nota_ingresada = int(input("Ingrese calificación: "));
     
-    if nota_ingresada != 0:  # Evitamos sumar el 0
+    if nota_ingresada != 0:
         nota_acumulada += nota_ingresada;
         cantidad += 1;  # Contamos solo las notas válidas
 
@@ -23,7 +22,7 @@ while nota_ingresada != 0:
 if cantidad == 0:
     print("No se ingresaron notas.");
 else:
-    # Calculamos y mostramos el promedio
+    # obtengo el promedio
     promedio = nota_acumulada / cantidad
     print(f"El promedio de las notas es: {promedio}")
 
