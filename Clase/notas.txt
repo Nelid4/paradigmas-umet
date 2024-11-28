@@ -1,0 +1,51 @@
+* Métodos para listas: *
+
+.append(x) --> agrega un elemento x al final de la lista
+
+.insert(i, x) --> agrega un elemento x en el indice i
+
+.extend([a, b, c]) --> agregando varios elementos a una lista
+
+.index(x) --> TUPLA-acceder al indice de un elemento x
+
+.remove(x) --> elimina elemento x, por nombre
+
+.pop(x) --> elimina el elemento x, o el último si no indica
+
+.count(x) --> TUPLA-devuelve cuantas veces se encuentra el elemento x en la lista
+
+min(x) --> muestra valor minino de la lista x
+
+max(x) --> muetra valor maximo de lista x
+
+sum(x) --> suma todos los valores compatibles de la lista
+
+len() --> TUPLA-devuelve la longitud de la lista
+
+----------------------------------------------------------------------------------------------
+* Conjuntos *
+
+.add() --> Agrega un elemento.
+
+.remove() / .discard() --> Elimina un elemento; discard no genera error si no está presente
+
+.union() --> Unión de dos conjuntos
+
+.intersection() --> Intersección de dos conjuntos
+
+.difference() --> Diferencia entre dos conjuntos
+
+.clear() --> Vacía el conjunto
+
+----------------------------------------------------------------------------------------------
+* Diccionarios: *
+
+-Clave:valor = A cada valor se le asigna una clave unica para acceder a él
+
+del diccionario[clave] --> para eliminar una clave:valor
+
+diccionario[clave] = valor --> para agregar un valor o sobreescribir
+
+.keys() --> para obtener todas las claves
+
+.values() --> para obtener todos los valores
